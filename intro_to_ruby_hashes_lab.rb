@@ -6,7 +6,7 @@ end
 def my_hash
   # return a valid hash with any key/value pair of your choice
   valid = {
-    "a" = "a"
+    "a" => "a"
   }
 end
 
@@ -27,7 +27,7 @@ end
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
   create = {
-    key = value
+    key => value
   }
 end
 
